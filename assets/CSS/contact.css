@@ -154,7 +154,6 @@ h2 {
     border-radius: 10px;
 }
 .formulaire section {
-    padding-top: 20px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -164,8 +163,11 @@ h2 {
 .formulaire h2 {
     margin: auto;
 }
-div {
+.formulaire input {
     padding: 5px;
+}
+.comment {
+    font-weight: bolder;
 }
 main {
     padding: 20px;
@@ -210,6 +212,9 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .comment p {
+        text-align: center;
     }
 
 }
