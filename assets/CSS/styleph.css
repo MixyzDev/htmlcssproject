@@ -213,5 +213,8 @@ h2 {
         display: flex;
         flex-wrap: wrap;
     }
+    main p {
+        padding: 20px;
+    }
 
 }

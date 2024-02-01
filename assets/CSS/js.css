@@ -217,8 +217,12 @@ h2 {
         align-items: center;
         justify-content: center;
     }
+    p {
+        margin: auto;
+        padding: 20x;
+    }
     .intro p {
-        width: 100%;
+        width: 80%;
     }
     h1 {
         width: 200px;
@@ -245,6 +249,9 @@ h2 {
     .foto-infojs {
         margin: auto;
         width: 100%;
+    }
+    .container-infojs p {
+        padding: 20px;
     }
 
 
