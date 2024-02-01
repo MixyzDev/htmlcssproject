@@ -153,12 +153,19 @@ h2 {
     width: 100px;
     border-radius: 10px;
 }
-.frmulaire form {
+.formulaire section {
+    padding-top: 20px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.formulaire h2 {
+    margin: auto;
+}
+div {
+    padding: 5px;
 }
 main {
     padding: 20px;

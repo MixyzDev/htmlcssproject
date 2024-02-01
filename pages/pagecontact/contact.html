@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
     <title>CoucouMamie!</title>
 </head>
+
 <body>
     <header>
         <div class="headerContainer">
@@ -41,20 +43,21 @@
                 <section>
                     <h3>Coordonnées</h3>
                     <div>
-                        <label for="name">
-                            <b>Nom</b>
-                        </label><br>
+                        <label for="name"><b>Nom</b></label><br>
                         <input id="name" type="text">
                     </div>
                     <br>
                     <div>
-                        <label for="firstname"><b>Prénom</b>
-                        </label><br>
+                        <label for="firstname"><b>Prénom</b></label><br>
+                        <input id="firstname" type="text">
+                    </div>
+                    <div>
+                        <label for="firstname"><b>Email</Email></Em></b></label><br>
                         <input id="firstname" type="text">
                     </div>
                     <div>
                         <label for="document">
-                            Je désire recevoir une documentation</label>
+                            Je suis satisfait de ma visite!</label>
                         <input type="checkbox" id="document">
                     </div>
                     <div>
@@ -65,38 +68,19 @@
                             <option value="suisse">Belgique</option>
                         </select>
                     </div>
-                    <div>
-                        <span>
-                            <b>Sexe</b>
-                        </span>
-
-                        <input id="man" name="gender" type="radio">
-                        <label for="man">Masculin</label>
-                        <input id="woman" name="gender" type="radio">
-                        <label for="woman">féminin</label>
-                    </div>
                 </section>
-                <section class="formulaire">
-                    <h3>Dites-nous tout!</h3>
-                    <div>
-                        <p>Vous pouvez en choisir plus qu'un...</p>
-                        <input type="checkbox" id="pedagogie">
-                        <label for="pedagogie">Commentaires</label>
-                        <input type="checkbox" id="psychologie">
-                        <label for="psychologie">Requêtes</label>
-                    </div>
-                    <div>
-                        <p>
-                            <b>Commentaire</b>
-                        </p>
-                        <p>Si vous le voulez, vous pouvez décrire vos activités ou intérêts</p>
-                        <textarea cols="30" rows="10"></textarea>
+                <section>
+                    <b>Commentaire</b>
+                    </p>
+                    <p>Si vous le voulez, vous pouvez décrire vos activités ou intérêts</p>
+                    <textarea cols="30" rows="10"></textarea>
                     </div>
                     <div>
                         <button class="send" type="submit">Envoyer</button>
                     </div>
                 </section>
-            </form>
+        </section>
+        </form>
         </section>
     </main>
     <footer>
@@ -114,4 +98,5 @@
         </div>
     </footer>
 </body>
+
 </html>
