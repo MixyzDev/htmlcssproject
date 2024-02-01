@@ -1,0 +1,376 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background: linear-gradient();
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+    clip-path: circle(50%);
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.mami {
+    width: 200px;
+    background-color: coral;
+    left: 0;
+}
+
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+ul {
+
+    width: max-content;
+    border: 1px 0 1px solid #929A9D;
+}
+
+a {
+    padding: 5px 0 5px 0;
+    color: #929A9D;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: rgb(21, 20, 20);
+    font-size: large;
+    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
+}
+
+.mouv {
+    display: flex;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    animation: mouve 10s linear infinite;
+    box-shadow: 2px 3px 0.3px black;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes mouve {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.fotomodif {
+    width: 50%;
+}
+
+.exemple {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exemple p {
+    flex: 1;
+    padding: 20px;
+    justify-content: center;
+}
+
+.site {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.site img {
+    width: 600px;
+
+}
+
+.separe {
+    display: flex;
+}
+
+.separe img {
+    width: 100%;
+}
+
+.separe p {
+    flex: 1;
+    padding: 20px;
+}
+
+.colofoto {
+    border: 10px solid black;
+    display: flex;
+}
+
+.modifbor {
+    margin: 20px 0px 20px 0px;
+    clip-path: circle(68%);
+    width: 80%;
+    height: 800px;
+    display: flex;
+}
+
+.techno {
+    position: relative;
+}
+
+.techno-css {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.super {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 78, 80);
+    position: absolute;
+    top: 500px;
+    left: 80%;
+    transform: translate(-80%, -50%);
+    z-index: 1;
+    color: rgb(166, 161, 119);
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.container-exemple p {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 78, 80);
+    color: rgb(166, 161, 119);
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.expage2 {
+    height: 500px;
+}
+
+.supercss {
+    transform: translate(0%, -100%);
+    width: 547px;
+    left: 20px;
+}
+
+.exh1 {
+    background-color: #f0885b;
+}
+
+.cssduhtml {
+    width: 400px;
+    position: absolute;
+    transform: translate(300px, 50px, 100px);
+}
+
+.exavecstyle {
+    width: 500px;
+}
+
+.exstyle h2 {
+    width: 100%;
+}
+
+.exstyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.exstyle article {
+    margin: auto;
+    width: 30%;
+}
+
+h2 {
+    color: rgb(166, 161, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(78, 78, 80);
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px solid white;
+    border-right: 3px solid white;
+}
+
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+
+    .headerContainer {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .modifbor {
+        width: 100%;
+    }
+
+    .super {
+        width: 80%;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .supercss {
+        width: 30;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .cssduhtml {
+        width: 100%;
+        top: 70%;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%, 50%);
+
+    }
+
+    h1 {
+        width: 80%;
+    }
+
+    .exemple {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site {
+        width: 100%;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site img {
+        width: 100%;
+    }
+
+    .site p img {
+        justify-content: center;
+    }
+
+    .separe {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-exemple {
+        justify-content: center;
+    }
+
+    .container-exemple img {
+        justify-content: center;
+    }
+
+    p img {
+        justify-content: center;
+    }
+
+    .expage1 {
+        width: 100%;
+    }
+
+    .exstyle {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exstyle p {
+        width: 300px;
+    }
+
+    .exstyle article {
+        width: auto;
+    }
+
+    .exavecstyle {
+        margin-left: 20px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        width: 100%;
+    }
+
+    .exstyle h2 {
+        width: 100%;
+    }
+
+    .container-foot {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-foot p {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .colofoto {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

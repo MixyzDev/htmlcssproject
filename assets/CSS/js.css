@@ -1,0 +1,251 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background: linear-gradient();
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+    clip-path: circle(50%);
+    width: 80px;
+    height: 80px;
+}
+h1 {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.mami {
+    width: 200px;
+    background-color:coral;
+    left: 0;
+}
+
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+ul {
+
+    width: max-content;
+    border: 1px 0 1px solid #929A9D;
+}
+
+a {
+    padding: 5px 0 5px 0;
+    color: #929A9D;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: rgb(21, 20, 20);
+    font-size: large;
+    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
+}
+
+.mouv {
+    display: flex;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    animation: mouve 10s linear infinite;
+    box-shadow: 2px 3px 0.3px black;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes mouve {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+.modifbor {
+    clip-path: circle(68%);
+    width: 900px;
+    height: 700px;
+}
+.techno {
+    position: relative;
+    opacity: 0.5;
+}
+.intro {
+    position: relative;
+}
+.super {
+    width: 600px;
+    top: 40%;
+    left: 30%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 78, 80);
+    position: absolute;
+    z-index: 1;
+    color: rgb(166, 161, 119);
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.colofoto {
+    margin-top: 20px;
+    border: 10px solid black;
+    display: flex;
+}
+
+.fotomodif {
+    width: 50%;
+}
+.intro {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+
+}
+.intro h2 {
+    width: 50%;
+}
+.intro p {
+    width: 70%;
+}
+h2 {
+    color: rgb(166, 161, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(78, 78, 80);
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px solid white;
+    border-right: 3px solid white;
+}
+.bckjs {
+    margin-left: 20px;
+    background-image: url(../../pages/pagejs/assets/images/javascript.jpeg);
+    filter: blur(1px);
+    -webkit-filter: blur(3px);    width: 50%;
+    height: 800px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.relative {
+    position: relative;
+}
+
+.bckjs-txt {
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+}
+.container-infojs article {
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+
+    .headerContainer {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+    }
+    ul {
+        width: 100%;
+        font-size: 12px;
+    }
+    .modifbor {
+        margin: auto;
+        width: 100%;
+    }
+    .super {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+    }
+    .intro {
+        margin: 0;
+        flex-direction: column;
+    }
+    .intro h2 {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro p {
+        width: 100%;
+    }
+    h1 {
+        width: 200px;
+    }
+    h2 {
+        width: 100%;
+    }
+    .container-foot {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-foot p {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .colofoto {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foto-infojs {
+        margin: auto;
+        width: 100%;
+    }
+
+
+}

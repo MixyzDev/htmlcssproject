@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+    <title>CoucouMamie!</title>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div><img class="logo" src="../../assets/images/logo.jpg" alt="logo"></div>
+            <div>
+                <div class="mami">
+                    <h1>Coucou Mamie !</h1>
+                </div>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../../index.html">Accueil</a></li>
+                    <li><a href="../pagehtss/htss.html">HTML & CSS</a></li>
+                    <li><a href="../pagejs/js.html">JavaScript</a></li>
+                    <li><a href="../pagephp/pageph.html">Php</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mouv"></div>
+    </header>
+    <main>
+        <section class="formulaire">
+            <h2>Formulaire type</h2>
+            <form action="#">
+                <section>
+                    <h3>Coordonnées</h3>
+                    <div>
+                        <label for="name">
+                            <b>Nom</b>
+                        </label><br>
+                        <input id="name" type="text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="firstname"><b>Prénom</b>
+                        </label><br>
+                        <input id="firstname" type="text">
+                    </div>
+                    <div>
+                        <label for="document">
+                            Je désire recevoir une documentation</label>
+                        <input type="checkbox" id="document">
+                    </div>
+                    <div>
+                        <label for="pays">Pays</label>
+                        <select id="pays">
+                            <option value="france">France</option>
+                            <option value="suisse">Suisse</option>
+                            <option value="suisse">Belgique</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span>
+                            <b>Sexe</b>
+                        </span>
+
+                        <input id="man" name="gender" type="radio">
+                        <label for="man">Masculin</label>
+                        <input id="woman" name="gender" type="radio">
+                        <label for="woman">féminin</label>
+                    </div>
+                </section>
+                <section class="formulaire">
+                    <h3>Dites-nous tout!</h3>
+                    <div>
+                        <p>Vous pouvez en choisir plus qu'un...</p>
+                        <input type="checkbox" id="pedagogie">
+                        <label for="pedagogie">Commentaires</label>
+                        <input type="checkbox" id="psychologie">
+                        <label for="psychologie">Requêtes</label>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Commentaire</b>
+                        </p>
+                        <p>Si vous le voulez, vous pouvez décrire vos activités ou intérêts</p>
+                        <textarea cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="send" type="submit">Envoyer</button>
+                    </div>
+                </section>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container-foot">
+            <p>© Copyright - Mixyz Corp</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../../index.html">Accueil</a></li>
+                    <li><a href="../pagehtss/htss.html">HTML & CSS</a></li>
+                    <li><a href="../pagejs/js.html">JavaScript</a></li>
+                    <li><a href="../pagephp/pageph.html">Php</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
